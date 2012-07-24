@@ -2,7 +2,7 @@ package br.com.caelum.tarefas.modelo;
 
 public class Usuario {
 	private Long id;
-	public Long getId() {
+	public Long getId() { 
 		return id;
 	}
 
