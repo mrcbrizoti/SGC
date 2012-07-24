@@ -7,11 +7,11 @@ import javax.validation.constraints.Size;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
-import com.sun.istack.internal.NotNull;
+
 
 public class Tarefa {
 	private Long id;
-	@NotNull @Size(min=5,message="{campo.muito.curto}")
+	//@NotNull @Size(min=5,message="{campo.muito.curto}")
 	private String descricao;
 	private boolean finalizado;
 	@DateTimeFormat(pattern="dd/MM/yyyy")
