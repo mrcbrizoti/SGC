@@ -1,5 +1,8 @@
 package br.com.caelum.tarefas.modelo;
 
+/*
+ * Vejamos como vai rolar
+ */
 public class Usuario {
 	private Long id;
 	public Long getId() {
